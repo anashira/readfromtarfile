@@ -1,0 +1,5 @@
+def tarExtract(tar):
+        tFile = tarfile.open(tar,"r:*")
+        # tFile.close()
+        tFile.extractall()
+        return tFile
